@@ -1,17 +1,19 @@
-##Arrays
+#Arrays
 
-###SWBAT
+##SWBAT
 + Understand what an array is and when to use it
 + Initialize, access, and manipulate arrays
 
-###Key Points
+##Key Points
 + Arrays are used to store a series of related items
 + Arrays are made up of individual elements
 + Each element has a unique index
 + Arrays have a size
 + Computers start counting at 0
 
-###Lesson Plan
+##Lesson Plan
+
+###Concept
 Arrays are an ordered list of individual elements.
 + If a variable is a muffin, arrays are the muffin tin.  
 + They make it easy to pass around a bunch of elements (muffins). 
@@ -26,7 +28,12 @@ One example of a real world array is a grocery list. Each item on the list has a
 You can also visualize an array as a two-column table where the left column is the index (or the order) and the right column is the thing you’re listing 
 <img src= "https://s3.amazonaws.com/after-school-assets/advanced_jquery1.png">
 
-+ Notice that the index starts at 0. This is a quirk about data structures in computer science that you just have to memorize. The first item in an array is always 0, and it increments by one.
+Notice that the index starts at 0. This is a quirk about data structures in computer science The first item in an array is always 0, and it increments by one.
++ One way to think about this is that the computer counts indexes the way we count ages.
++ We start at age '0' and only after our first full year do we turn '1'.
+
+###Initializing arrays
+
 + So how do we translate this table into code?
   + [“Danny”, “Lyel”, “Victoria”, “Vanessa”]
   + Remember that the names are data so they must be in quotes as strings.
