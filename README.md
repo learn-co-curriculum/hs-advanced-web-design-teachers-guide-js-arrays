@@ -1,17 +1,23 @@
 ##Arrays
 
 ###SWBAT
-+ understand what an array is and when to use it
-+ declare arrays and add items
-+ fetch array elements by index
-+ insert new values into an array
-+ access array elements by their index
-+ store or change elements in an array
-+ call methods on an array - like length, push, pop, splice
-+ understand when to use associative arrays
++ Understand what an array is and when to use it
++ Initialize, access, and manipulate arrays
+
+###Key Points
++ Arrays are used to store a series of related items
++ Arrays are made up of individual elements
++ Each element has a unique index
++ Arrays have a size
++ Computers start counting at 0
 
 ###Lesson Plan
-+ Let’s start by learning about arrays. We’ll do this by making our own arrays.
+Arrays are an ordered list of individual elements.
++ If a variable is a muffin, arrays are the muffin tin.  
++ They make it easy to pass around a bunch elements (muffins). 
+  + Instead of giving someone 12 muffins (variables) and having them juggle, you can give them a muffin tin (array) filled with muffins.  
+
+
 + Think about an array as an ordered list that can be visualized as a two-column table where the left column is the index (or the order) and the right column is the thing you’re listing (Draw on board, using one of the students’ examples):
 <img src= "https://s3.amazonaws.com/after-school-assets/advanced_jquery1.png">
 + Notice that the index starts at 0. This is a quirk about data structures in computer science that you just have to memorize. The first item in an array is always 0, and it increments by one.
