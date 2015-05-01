@@ -14,12 +14,18 @@
 ###Lesson Plan
 Arrays are an ordered list of individual elements.
 + If a variable is a muffin, arrays are the muffin tin.  
-+ They make it easy to pass around a bunch elements (muffins). 
-  + Instead of giving someone 12 muffins (variables) and having them juggle, you can give them a muffin tin (array) filled with muffins.  
++ They make it easy to pass around a bunch of elements (muffins). 
++ Instead of giving someone 12 muffins (variables) and having them juggle, you can give them a muffin tin (array) filled with muffins.  
 
+One example of a real world array is a grocery list. Each item on the list has a index (number) and a element (food item).  Another example would be a parking lot, each space is numbered (index) and contains a car (element).
 
-+ Think about an array as an ordered list that can be visualized as a two-column table where the left column is the index (or the order) and the right column is the thing you’re listing (Draw on board, using one of the students’ examples):
+*Can anyone give me more examples of real world arrays?*
+
+(Draw on board, using one of the students’ examples):
+
+You can also visualize an array as a two-column table where the left column is the index (or the order) and the right column is the thing you’re listing 
 <img src= "https://s3.amazonaws.com/after-school-assets/advanced_jquery1.png">
+
 + Notice that the index starts at 0. This is a quirk about data structures in computer science that you just have to memorize. The first item in an array is always 0, and it increments by one.
 + So how do we translate this table into code?
   + [“Danny”, “Lyel”, “Victoria”, “Vanessa”]
