@@ -44,7 +44,7 @@ An array with just numbers would look like this:
 ```
 [3, 345, 42, 98, 7]
 ```
-Square brackets `[]` denote the contents of an array.  An array can be stored in a variable just like a number or string.
+Square brackets `[ ]` denote the contents of an array.  An array can be stored in a variable just like a number or string.
 
 You'll notice that we don't write the *index* of the *elements* anywhere. The computer automatically makes an index starting at 0 and incrementing by 1 for each element.
 
@@ -55,16 +55,37 @@ Great, we’ve made an array. Let’s go ahead and assign it to a variable so th
 ```
 var names = [“Danny”, “Lyel”, “Victoria”, “Vanessa”];
 ```
+*Model and then have students create a new file in their development directories to hold their array practice code. Have students create their own array of their choice and assign it to a variable. Have students turn to partners and check with each other.*
 
-+ <b>Model and then have students create a new file in their development directories to hold their array practice code. Have students create their own array of their choice and assign it to a variable. Have students turn to partners and check with each other.</b>
-+ Great. We’ve created the array. Now what if I just want to get out one item from the array instead of the whole thing. For example, What if I want to get the third item listed in my array?
-+ We access items in an array using the brackets and the index of the thing you want.
-+ <b>names[3] will give me what? (the fourth). how do I get the third item?
-+ So what if we want to change one of the items in the array? Any thoughts on how we can reassign/change an item?</b>
-+ names[2] = “Joe” will change the third item in the array to Joe. (Model this)
-+ We can also add and remove items from an array. Arrays actually have methods built in to them. Remember that methods are just a set of instructions.
-  + names.push(“Alfred”) will add an item with the contents of the argument to the end of the array it is called on. 
-  + names.pop() will remove the last item in an array.
-+ Here are some other cool methods: .length(), .sort(), .splice(), split().
-+ <b>[Mini Lab](https://learn.co/admin/lessons/5206): Manipulating arrays (start with array and then have 10 instructions, what does array look like at the end?)
-+ Answer: ["Peru", "Laos", "Chad", "Cuba", "Togo", "Iraq", "Iran", "Mali", "Oman", "Fiji"] </b>
+###Access array elements
+
+Great. We’ve created the array. Now what if I just want to get out one item from the array instead of the whole thing. For example, What if I want to get the third item listed in my array?
+
+We access items in an array using the brackets and the index of the thing you want.
+
+`names[3]` will give me what? (the fourth). how do I get the third item? (0 index means the 1st item is `names[0]`, the second `names[1]` ....)
+
+###Change array element
+*So what if we want to change one of the items in the array? Any thoughts on how we can reassign/change an item?*
+
+`names[2] = “Joe”` will change the third item in the array to Joe. (Model this)
+
+###Get the size of an array
+
+Every array also has a *property* that is it's length. 
+```
+console.log(names.length);
+```
+Would print out '4' since our names array contains 4 names.  (Notice though that the last element of our array only has an index of '3', this will become important when discussing loops.)
+
+###Add and Remove items from an array
+
+We can also add and remove items from an array. Arrays actually have methods built in to them. Remember that methods are just a set of instructions.
+
+`names.push(“Alfred”)` will add an item with the contents of the argument to the end of the array it is called on. In this case the argument is `"Alfred"` and the array is `names`.
+`var lastName = names.pop()` will remove the last item in an array and return it. Since we just added "Alfred" to the end that is what `names.pop()` returns and stores in `lastName`.
+
+Here are some other cool methods: `.sort()`, `.splice()`, `split()`.
+
+[Mini Lab](https://learn.co/admin/lessons/5206): Manipulating arrays (start with array and then have 10 instructions, what does array look like at the end?)
+*Answer: ["Peru", "Laos", "Chad", "Cuba", "Togo", "Iraq", "Iran", "Mali", "Oman", "Fiji"]*
