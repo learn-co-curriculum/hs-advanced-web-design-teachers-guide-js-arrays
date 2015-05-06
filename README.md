@@ -34,12 +34,28 @@ Notice that the index starts at 0. This is a quirk about data structures in comp
 
 ###Initializing arrays
 
-+ So how do we translate this table into code?
-  + [“Danny”, “Lyel”, “Victoria”, “Vanessa”]
-  + Remember that the names are data so they must be in quotes as strings.
-  + We use square brackets to denote an array.
-  + We don’t explicitly write the index anywhere. (show the index above each item on the board)
-+ Great, we’ve made an array. Let’s go ahead and assign it to a variable so that whenever we call the variable names we have the array returned to us.
+So how do we translate this table into code?
+```
+[“Danny”, “Lyel”, “Victoria”, “Vanessa”]
+```
+Remember that the names are data so they must be in quotes as strings.
+
+An array with just numbers would look like this:
+```
+[3, 345, 42, 98, 7]
+```
+Square brackets `[]` denote the contents of an array.  An array can be stored in a variable just like a number or string.
+
+You'll notice that we don't write the *index* of the *elements* anywhere. The computer automatically makes an index starting at 0 and incrementing by 1 for each element.
+
+(show the index above each item on the board)
+
+Great, we’ve made an array. Let’s go ahead and assign it to a variable so that whenever we call the variable names we have the array returned to us.
+
+```
+var names = [“Danny”, “Lyel”, “Victoria”, “Vanessa”];
+```
+
 + <b>Model and then have students create a new file in their development directories to hold their array practice code. Have students create their own array of their choice and assign it to a variable. Have students turn to partners and check with each other.</b>
 + Great. We’ve created the array. Now what if I just want to get out one item from the array instead of the whole thing. For example, What if I want to get the third item listed in my array?
 + We access items in an array using the brackets and the index of the thing you want.
