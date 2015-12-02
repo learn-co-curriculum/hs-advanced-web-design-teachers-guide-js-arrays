@@ -89,3 +89,5 @@ Here are some other cool methods: `.sort()`, `.splice()`, `split()`.
 
 [Mini Lab](https://learn.co/admin/lessons/5206): Manipulating arrays (start with array and then have 10 instructions, what does array look like at the end?)
 *Answer: ["Peru", "Laos", "Chad", "Cuba", "Togo", "Iraq", "Iran", "Mali", "Oman", "Fiji"]*
+
+<a href='https://learn.co/lessons/hs-advanced-web-design-teachers-guide-js-arrays' data-visibility='hidden'>View this lesson on Learn.co</a>
